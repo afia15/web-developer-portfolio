@@ -120,6 +120,10 @@ main {
 
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /*About section styles*/
 .about {
     padding: 130px;
@@ -146,13 +150,71 @@ main {
 
 /*skill related  styles*/
 .skill-container {
-    display: flex;/*line gula upor nich theke pashapashi jabe*/
+    display: flex;
+    /*line gula upor nich theke pashapashi jabe*/
     gap: 24px;
 }
 
 .skill {
-    padding: 30px;/*jatekore sob ek dekhay*/
+    padding: 30px;
+    /*jatekore sob ek dekhay*/
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+
+}
+
+/*resume related styles*/
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin: 30px;
 }
