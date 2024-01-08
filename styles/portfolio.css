@@ -1,12 +1,14 @@
 /*Common Shared styles*/
-body{
-    font-family: 'Lato' , sans-serif ;
+body {
+    font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -15,42 +17,111 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+
+}
+
 /*nav related style*/
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 220px;
 }
-.nav-title{
+
+.nav-title {
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
 
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* Header related styles*/
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;/* pashapashi ante*/
+
+.banner {
+    padding: 30px 30px 0px 130px;
+    display: flex;
+    /* pashapashi ante*/
+    align-items: center;
+    justify-content: space-between;
 
 }
-.banner .pro-pic{
+
+.banner .banner-content {
+
+    max-width: 500px;
+
+}
+
+.banner .pro-pic {
     width: 584px;
     align-items: center;
+}
+
+.banner-gretting {
+    font-size: 45px;
+    color: #474747;
+    margin: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    color: var(--Dark-03, #757575);
+
+}
+
+/*Main section styles*/
+
+/*About section styles*/
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    
+   
+
 }
