@@ -18,7 +18,7 @@ body {
     padding: 15px 35px;
 }
 
-.section-title{
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
@@ -29,8 +29,6 @@ body {
     color: #757575;
     text-align: center;
     font-size: 18px;
-
-
 }
 
 /*nav related style*/
@@ -115,11 +113,11 @@ nav a {
 }
 
 /*Main section styles*/
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 
- 
+
 }
 
 /*About section styles*/
@@ -128,14 +126,33 @@ main{
     border-radius: 10px;
     background-color: #FFF8F3;
     margin: 130px 0;
-   
+
 
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 
 }
-.about-info{
+
+.about-info {
     text-align: center;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+/*skill related  styles*/
+.skill-container {
+    display: flex;/*line gula upor nich theke pashapashi jabe*/
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;/*jatekore sob ek dekhay*/
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
